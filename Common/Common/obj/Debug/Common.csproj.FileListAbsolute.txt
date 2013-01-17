@@ -1,0 +1,7 @@
+C:\Users\SinSay\Documents\Visual Studio 2010\Projects\Barfoo.2012.SearchEngine\Common\Common\bin\Debug\Common.dll
+C:\Users\SinSay\Documents\Visual Studio 2010\Projects\Barfoo.2012.SearchEngine\Common\Common\bin\Debug\Common.pdb
+C:\Users\SinSay\Documents\Visual Studio 2010\Projects\Barfoo.2012.SearchEngine\Common\Common\bin\Debug\UtilityLib.dll
+C:\Users\SinSay\Documents\Visual Studio 2010\Projects\Barfoo.2012.SearchEngine\Common\Common\bin\Debug\UtilityLib.pdb
+C:\Users\SinSay\Documents\Visual Studio 2010\Projects\Barfoo.2012.SearchEngine\Common\Common\obj\Debug\Common.csprojResolveAssemblyReference.cache
+C:\Users\SinSay\Documents\Visual Studio 2010\Projects\Barfoo.2012.SearchEngine\Common\Common\obj\Debug\Common.dll
+C:\Users\SinSay\Documents\Visual Studio 2010\Projects\Barfoo.2012.SearchEngine\Common\Common\obj\Debug\Common.pdb

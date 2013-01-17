@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{8CC9071C-E5DA-47B2-AC5A-1308C11F0F51}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Indexer</RootNamespace>
+    <AssemblyName>Indexer</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Attributes\AnalyseAttribute.cs" />
+    <Compile Include="Attributes\ChangeableAttribute.cs" />
+    <Compile Include="Attributes\ChangeNameAttribute.cs" />
+    <Compile Include="Attributes\DateAttribute.cs" />
+    <Compile Include="Attributes\StroeAttribute.cs" />
+    <Compile Include="IndexContext.cs" />
+    <Compile Include="FieldAnalyseInfo.cs" />
+    <Compile Include="IndexController.cs" />
+    <Compile Include="Document.cs" />
+    <Compile Include="IndexDirectoryManager.cs" />
+    <Compile Include="IndexInterface\IIndexDirectory.cs" />
+    <Compile Include="IndexInterface\IndexDirectoryCache.cs" />
+    <Compile Include="IndexInterface\LuceneInterface\LuceneDirectory.cs" />
+    <Compile Include="Processor\IIndexWriter.cs" />
+    <Compile Include="Processor\IIndexReader.cs" />
+    <Compile Include="Processor\LuceneProcessor\LuceneIndexReader.cs" />
+    <Compile Include="Processor\LuceneProcessor\LuceneIndexWriter.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Common\Common\Common.csproj">
+      <Project>{BC3BEA31-F41D-4D66-A239-EACD8666F754}</Project>
+      <Name>Common %28Common\Common%29</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Library\Addin\Lucene.Net\Lucene.Net.csproj">
+      <Project>{5D4AD9BE-1FFB-41AB-9943-25737971BF57}</Project>
+      <Name>Lucene.Net</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Library\Addin\LuceneExtension\LuceneExtension.csproj">
+      <Project>{7AA78082-D9A9-4DC8-8CF5-06DA43FAC733}</Project>
+      <Name>LuceneExtension</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Library\UtilityLib\UtilityLib.csproj">
+      <Project>{1AA80867-95AC-4758-B2D7-0C43215DE1B4}</Project>
+      <Name>UtilityLib</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

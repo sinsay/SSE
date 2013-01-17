@@ -1,0 +1,9 @@
+C:\Users\SinSay\Documents\Visual Studio 2010\Projects\Barfoo.2012.SearchEngine\Excavator\Shell.Common\obj\Release\Shell.Common.csprojResolveAssemblyReference.cache
+C:\Users\SinSay\Documents\Visual Studio 2010\Projects\Barfoo.2012.SearchEngine\Excavator\Shell.Common\bin\Release\Shell.Common.dll
+C:\Users\SinSay\Documents\Visual Studio 2010\Projects\Barfoo.2012.SearchEngine\Excavator\Shell.Common\bin\Release\Shell.Common.pdb
+C:\Users\SinSay\Documents\Visual Studio 2010\Projects\Barfoo.2012.SearchEngine\Excavator\Shell.Common\bin\Release\Common.dll
+C:\Users\SinSay\Documents\Visual Studio 2010\Projects\Barfoo.2012.SearchEngine\Excavator\Shell.Common\bin\Release\UtilityLib.dll
+C:\Users\SinSay\Documents\Visual Studio 2010\Projects\Barfoo.2012.SearchEngine\Excavator\Shell.Common\bin\Release\Common.pdb
+C:\Users\SinSay\Documents\Visual Studio 2010\Projects\Barfoo.2012.SearchEngine\Excavator\Shell.Common\bin\Release\UtilityLib.pdb
+C:\Users\SinSay\Documents\Visual Studio 2010\Projects\Barfoo.2012.SearchEngine\Excavator\Shell.Common\obj\Release\Shell.Common.dll
+C:\Users\SinSay\Documents\Visual Studio 2010\Projects\Barfoo.2012.SearchEngine\Excavator\Shell.Common\obj\Release\Shell.Common.pdb
